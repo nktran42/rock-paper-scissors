@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Rock, Paper, or Scissors!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock, Paper, Scissors!</h1>
+    <section class="main">
+        <p>A bot has challenged you to a game. <span>Rock</span> beats <span>scissors</span>, <span>scissors</span> beats <span>paper</span>, and <span>paper</span> beats <span>rock</span></p>
+        <h2>Scoreboard</h2>
+        <div class="main_score">
+            <div class="box player_scorebox">0</div>
+            <div class="box bot_scorebox">0</div>
+        </div>
+        <div class="score_labels">
+            <h3>You</h3>
+            <h3>Bot</h3>
+        </div>
+        <h3 class="choose">Chose your weapon</h3>
+        <div class="options">
+            <button class="choice rock">Rock</button>
+            <button class="choice paper">Paper</button>
+            <button class="choice scissors">Scissors</button>
+        </div>
+        <span class="result"></span>
+    </section>
+    <button class="reset">Start Over</button>
+    <script src="main.js"></script>
+</body>
+</html>
