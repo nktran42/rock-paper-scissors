@@ -8,13 +8,7 @@
 
 
 body {
-    height: 100vh;
-    width: 100vw; 
-    background-image: url('images/rps_resize.jpg');
-    background-repeat: no-repeat;
-    background-position: 50% 100%; 
     background-color: #ffdd79;
-    background-size: 500px; 
     color: white; 
 }
 
@@ -25,7 +19,7 @@ h1 {
 
 .main {
     width: 30%; 
-    min-width: 500px; 
+    min-width: 400px; 
     margin: 0 auto; 
     border: 3px solid black; 
     background-color:rgb(163, 163, 163);     
@@ -105,6 +99,7 @@ h3 {
     color: white; 
     padding: 20px;
     font-size: 1.5rem; 
+    display: block; 
 }
 
 .reset {
@@ -123,4 +118,10 @@ h3 {
     background-color: orange; 
     font-weight: 700; 
     transform: scale(1.1);
+}
+
+img {
+    display: block; 
+    max-height: 200px; 
+    margin: 0 auto; 
 }
